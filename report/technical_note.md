@@ -1,6 +1,6 @@
 ---
 title: "Case S02 — CUDA Thread-Block Configuration: Which Launch Shape Is Robust Across Workload Sizes?"
-subtitle: "Individual technical note · [YOUR NAME] · [REG NO]"
+subtitle: "Individual technical note · Ajinkya Phatak · Reg. No. 23BCE0643"
 ---
 
 ## 1. Problem, research question and related work
