@@ -1,0 +1,18 @@
+# Portable toolchain (3.9 GB of NVIDIA/Microsoft redistributables) - recreate with: python scripts/setup_toolchain.py
+tools/
+
+# Build outputs - recreate with: scripts/build.ps1
+build/
+*.exe
+*.exp
+*.lib
+*.obj
+
+# Generated / scratch
+__pycache__/
+*.pyc
+report/_reference.docx
+results/raw/ncu/_bench_out/
+~$*
+*.tmp
+.vscode/

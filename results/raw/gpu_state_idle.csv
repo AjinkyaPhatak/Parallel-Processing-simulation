@@ -1,0 +1,2 @@
+timestamp, pstate, temperature.gpu, power.draw [W], clocks.current.sm [MHz], clocks.current.memory [MHz], clocks.max.sm [MHz], utilization.gpu [%], clocks_event_reasons.active, clocks_event_reasons.sw_thermal_slowdown, clocks_event_reasons.hw_slowdown, clocks_event_reasons.sw_power_cap
+2026/10/19 12:35:21.548, P8, 47, 7.34, 300, 405, 2100, 26, 0x0000000000000001, Not Active, Not Active, Not Active

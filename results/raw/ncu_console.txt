@@ -1,0 +1,242 @@
+﻿Toolchain active: MSVC 14.44.35207, Windows SDK 10.0.26100.0, CUDA C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\tools\cuda
+=== ncu vecadd
+==PROF== Connected to process 20240 (C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\build\bench.exe)
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "vecadd_kernel": 0%....50%....100% - 11 passes
+[2026-10-19T13:26:13] suite=vecadd reps=0 warmup=0 on NVIDIA GeForce RTX 2060
+  cpu vecadd size=1048576 rep 0: 1.22 ms
+  vecadd/naive size=1048576: 12/12 configs valid, 0 reps
+  cpu vecadd size=16777216 rep 0: 32.08 ms
+  vecadd/naive size=16777216: 12/12 configs valid, 0 reps
+[2026-10-19T13:26:36] done
+==PROF== Disconnected from process 20240
+==PROF== Report: C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\results\raw\ncu\vecadd.ncu-rep
+=== ncu matmul
+==PROF== Connected to process 18856 (C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\build\bench.exe)
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%...
+==WARNING== Launching the workload is taking more time than expected. If this continues to hang, terminate the profile and re-try by profiling the range of all related launches using '--replay-mode range'. See https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#replay for more details.
+.100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_naive_kernel": 0%....50%....100% - 11 passes
+[2026-10-19T13:26:49] suite=matmul reps=0 warmup=0 on NVIDIA GeForce RTX 2060
+  cpu matmul size=1024 rep 0: 1165.19 ms
+  matmul/naive size=1024: 24/24 configs valid, 0 reps
+  cpu matmul size=2048 rep 0: 7392.17 ms
+  matmul/naive size=2048: 24/24 configs valid, 0 reps
+[2026-10-19T13:29:29] done
+==PROF== Disconnected from process 18856
+==PROF== Report: C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\results\raw\ncu\matmul.ncu-rep
+=== ncu matmul_tiled
+==PROF== Connected to process 7224 (C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\build\bench.exe)
+==PROF== Profiling "matmul_tiled_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_tiled_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_tiled_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_tiled_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_tiled_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "matmul_tiled_kernel": 0%....50%....100% - 11 passes
+[2026-10-19T13:29:45] suite=matmul_tiled reps=0 warmup=0 on NVIDIA GeForce RTX 2060
+  matmul/tiled size=1024: 1/1 configs valid, 0 reps
+  matmul/tiled size=1024: 1/1 configs valid, 0 reps
+  matmul/tiled size=1024: 1/1 configs valid, 0 reps
+  matmul/tiled size=2048: 1/1 configs valid, 0 reps
+  matmul/tiled size=2048: 1/1 configs valid, 0 reps
+  matmul/tiled size=2048: 1/1 configs valid, 0 reps
+[2026-10-19T13:30:02] done
+==PROF== Disconnected from process 7224
+==PROF== Report: C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\results\raw\ncu\matmul_tiled.ncu-rep
+=== ncu conv3
+==PROF== Connected to process 5808 (C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\build\bench.exe)
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+[2026-10-19T13:30:10] suite=conv3 reps=0 warmup=0 on NVIDIA GeForce RTX 2060
+  cpu conv3 size=2048 rep 0: 181.84 ms
+  conv3/naive size=2048: 24/24 configs valid, 0 reps
+  cpu conv3 size=4096 rep 0: 862.42 ms
+  conv3/naive size=4096: 24/24 configs valid, 0 reps
+[2026-10-19T13:30:57] done
+==PROF== Disconnected from process 5808
+==PROF== Report: C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\results\raw\ncu\conv3.ncu-rep
+=== ncu conv5
+==PROF== Connected to process 3956 (C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\build\bench.exe)
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+==PROF== Profiling "conv2d_kernel": 0%....50%....100% - 11 passes
+[2026-10-19T13:31:12] suite=conv5 reps=0 warmup=0 on NVIDIA GeForce RTX 2060
+  cpu conv5 size=2048 rep 0: 581.03 ms
+  conv5/naive size=2048: 24/24 configs valid, 0 reps
+  cpu conv5 size=4096 rep 0: 2400.65 ms
+  conv5/naive size=4096: 24/24 configs valid, 0 reps
+[2026-10-19T13:32:07] done
+==PROF== Disconnected from process 3956
+==PROF== Report: C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\results\raw\ncu\conv5.ncu-rep
+ncu rows: 174  ->  C:\Users\Ajinkya\Desktop\projects\Parallel computing Case study simulation\results\processed\ncu_metrics.csv
+kernel  variant  size    
+conv3   naive    2048        24
+                 4096        24
+conv5   naive    2048        24
+                 4096        24
+matmul  naive    1024        24
+                 2048        24
+        tiled    1024         3
+                 2048         3
+vecadd  naive    1048576     12
+                 16777216    12
+dtype: int64

@@ -1,0 +1,122 @@
+[2026-10-19T13:07:52] suite=vecadd reps=50 warmup=5 on NVIDIA GeForce RTX 2060
+  cpu vecadd size=1048576 rep 0: 0.93 ms
+  cpu vecadd size=1048576 rep 1: 0.98 ms
+  cpu vecadd size=1048576 rep 2: 1.06 ms
+  cpu vecadd size=1048576 rep 3: 1.06 ms
+  cpu vecadd size=1048576 rep 4: 1.01 ms
+  cpu vecadd size=1048576 rep 5: 1.05 ms
+  cpu vecadd size=1048576 rep 6: 0.81 ms
+  cpu vecadd size=1048576 rep 7: 0.81 ms
+  cpu vecadd size=1048576 rep 8: 0.84 ms
+  cpu vecadd size=1048576 rep 9: 0.81 ms
+  vecadd/naive size=1048576: 12/12 configs valid, 50 reps
+  cpu vecadd size=16777216 rep 0: 15.06 ms
+  cpu vecadd size=16777216 rep 1: 15.79 ms
+  cpu vecadd size=16777216 rep 2: 14.59 ms
+  cpu vecadd size=16777216 rep 3: 14.60 ms
+  cpu vecadd size=16777216 rep 4: 14.96 ms
+  cpu vecadd size=16777216 rep 5: 14.97 ms
+  cpu vecadd size=16777216 rep 6: 15.13 ms
+  cpu vecadd size=16777216 rep 7: 14.15 ms
+  cpu vecadd size=16777216 rep 8: 13.93 ms
+  cpu vecadd size=16777216 rep 9: 14.19 ms
+  vecadd/naive size=16777216: 12/12 configs valid, 50 reps
+  cpu vecadd size=134217728 rep 0: 121.64 ms
+  cpu vecadd size=134217728 rep 1: 120.52 ms
+  cpu vecadd size=134217728 rep 2: 128.48 ms
+  cpu vecadd size=134217728 rep 3: 120.01 ms
+  cpu vecadd size=134217728 rep 4: 113.61 ms
+  cpu vecadd size=134217728 rep 5: 140.88 ms
+  cpu vecadd size=134217728 rep 6: 123.26 ms
+  cpu vecadd size=134217728 rep 7: 119.42 ms
+  cpu vecadd size=134217728 rep 8: 112.06 ms
+  cpu vecadd size=134217728 rep 9: 112.13 ms
+  vecadd/naive size=134217728: 12/12 configs valid, 50 reps
+[2026-10-19T13:09:03] done
+[2026-10-19T13:09:03] suite=conv3 reps=50 warmup=5 on NVIDIA GeForce RTX 2060
+  cpu conv3 size=1024 rep 0: 33.08 ms
+  cpu conv3 size=1024 rep 1: 34.33 ms
+  cpu conv3 size=1024 rep 2: 29.84 ms
+  cpu conv3 size=1024 rep 3: 31.93 ms
+  cpu conv3 size=1024 rep 4: 30.49 ms
+  conv3/naive size=1024: 24/24 configs valid, 50 reps
+  cpu conv3 size=2048 rep 0: 121.30 ms
+  cpu conv3 size=2048 rep 1: 120.20 ms
+  cpu conv3 size=2048 rep 2: 119.88 ms
+  cpu conv3 size=2048 rep 3: 128.84 ms
+  cpu conv3 size=2048 rep 4: 127.86 ms
+  conv3/naive size=2048: 24/24 configs valid, 50 reps
+  cpu conv3 size=4096 rep 0: 485.60 ms
+  cpu conv3 size=4096 rep 1: 554.14 ms
+  cpu conv3 size=4096 rep 2: 498.25 ms
+  cpu conv3 size=4096 rep 3: 510.98 ms
+  cpu conv3 size=4096 rep 4: 485.09 ms
+  conv3/naive size=4096: 24/24 configs valid, 50 reps
+[2026-10-19T13:09:23] done
+[2026-10-19T13:09:23] suite=conv5 reps=50 warmup=5 on NVIDIA GeForce RTX 2060
+  cpu conv5 size=1024 rep 0: 52.50 ms
+  cpu conv5 size=1024 rep 1: 56.25 ms
+  cpu conv5 size=1024 rep 2: 53.01 ms
+  cpu conv5 size=1024 rep 3: 60.28 ms
+  cpu conv5 size=1024 rep 4: 76.26 ms
+  conv5/naive size=1024: 24/24 configs valid, 50 reps
+  cpu conv5 size=2048 rep 0: 286.42 ms
+  cpu conv5 size=2048 rep 1: 259.17 ms
+  cpu conv5 size=2048 rep 2: 345.76 ms
+  cpu conv5 size=2048 rep 3: 369.19 ms
+  cpu conv5 size=2048 rep 4: 296.77 ms
+  conv5/naive size=2048: 24/24 configs valid, 50 reps
+  cpu conv5 size=4096 rep 0: 1154.77 ms
+  cpu conv5 size=4096 rep 1: 1164.99 ms
+  cpu conv5 size=4096 rep 2: 1334.84 ms
+  cpu conv5 size=4096 rep 3: 1297.13 ms
+  cpu conv5 size=4096 rep 4: 1368.37 ms
+  conv5/naive size=4096: 24/24 configs valid, 50 reps
+[2026-10-19T13:09:51] done
+[2026-10-19T13:09:51] suite=matmul_tiled reps=50 warmup=5 on NVIDIA GeForce RTX 2060
+  matmul/tiled size=512: 1/1 configs valid, 50 reps
+  matmul/tiled size=512: 1/1 configs valid, 50 reps
+  matmul/tiled size=512: 1/1 configs valid, 50 reps
+  matmul/tiled size=1024: 1/1 configs valid, 50 reps
+  matmul/tiled size=1024: 1/1 configs valid, 50 reps
+  matmul/tiled size=1024: 1/1 configs valid, 50 reps
+  matmul/tiled size=2048: 1/1 configs valid, 50 reps
+  matmul/tiled size=2048: 1/1 configs valid, 50 reps
+  matmul/tiled size=2048: 1/1 configs valid, 50 reps
+  matmul/tiled size=4096: 1/1 configs valid, 50 reps
+  matmul/tiled size=4096: 1/1 configs valid, 50 reps
+  matmul/tiled size=4096: 1/1 configs valid, 50 reps
+[2026-10-19T13:11:28] done
+[2026-10-19T13:11:29] suite=matmul reps=30 warmup=5 on NVIDIA GeForce RTX 2060
+  cpu matmul size=512 rep 0: 31.95 ms
+  cpu matmul size=512 rep 1: 32.05 ms
+  cpu matmul size=512 rep 2: 32.06 ms
+  cpu matmul size=512 rep 3: 32.06 ms
+  cpu matmul size=512 rep 4: 34.29 ms
+  cpu matmul size=512 rep 5: 35.60 ms
+  cpu matmul size=512 rep 6: 34.67 ms
+  cpu matmul size=512 rep 7: 32.19 ms
+  cpu matmul size=512 rep 8: 32.37 ms
+  cpu matmul size=512 rep 9: 33.22 ms
+  matmul/naive size=512: 24/24 configs valid, 30 reps
+  cpu matmul size=1024 rep 0: 306.28 ms
+  cpu matmul size=1024 rep 1: 310.92 ms
+  cpu matmul size=1024 rep 2: 305.77 ms
+  cpu matmul size=1024 rep 3: 300.48 ms
+  cpu matmul size=1024 rep 4: 305.90 ms
+  cpu matmul size=1024 rep 5: 332.33 ms
+  cpu matmul size=1024 rep 6: 303.18 ms
+  cpu matmul size=1024 rep 7: 324.82 ms
+  cpu matmul size=1024 rep 8: 352.37 ms
+  cpu matmul size=1024 rep 9: 303.43 ms
+  matmul/naive size=1024: 24/24 configs valid, 30 reps
+  cpu matmul size=2048 rep 0: 3363.32 ms
+  cpu matmul size=2048 rep 1: 3549.95 ms
+  cpu matmul size=2048 rep 2: 3100.34 ms
+  matmul/naive size=2048: 24/24 configs valid, 30 reps
+  cpu matmul size=4096 rep 0: 28624.46 ms
+  cpu matmul size=4096 rep 1: 33882.86 ms
+  matmul/naive size=4096: 24/24 configs valid, 30 reps
+[2026-10-19T13:21:26] done
+[2026-10-19T13:21:26] suite=overhead reps=50 warmup=5 on NVIDIA GeForce RTX 2060
+  overhead: 50 reps done

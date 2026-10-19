@@ -1,0 +1,2 @@
+﻿name, driver_version, pcie.link.gen.current, pcie.link.width.current, power.limit [W], clocks.max.sm [MHz], clocks.max.memory [MHz]
+NVIDIA GeForce RTX 2060, 581.57, 3, 8, [N/A], 2100 MHz, 5501 MHz

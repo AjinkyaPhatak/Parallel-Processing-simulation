@@ -1,0 +1,7 @@
+suite,seconds,samples,busy_samples,sm_clock_median_mhz,sm_clock_min_mhz,sm_clock_max_mhz,mem_clock_median_mhz,temp_max_c,power_max_w,pstates,thermal_slowdown_samples,hw_slowdown_samples,power_cap_samples
+vecadd,71,131,82,1890.0,1800,1920,5500.0,61,91.46,P0;P3;P5;P8,0,0,18
+conv3,20,38,22,1875.0,1680,1890,5500.0,67,89.41,P0;P3,0,0,15
+conv5,28,52,25,1875.0,1620,1875,5500.0,69,90.92,P0;P3;P5;P8,0,0,21
+matmul_tiled,98,182,131,1605.0,1470,1875,5500.0,80,94.71,P0;P3;P5;P8,0,0,130
+matmul,598,1127,999,1545.0,1170,1875,5500.0,87,103.79,P0;P3;P5;P8,87,0,916
+overhead,19,32,7,1785.0,1695,1830,5500.0,86,92.33,P0;P3;P5;P8,3,0,1
